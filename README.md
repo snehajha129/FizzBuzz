@@ -30,14 +30,92 @@ The API accepts an array of values and returns:
 
 ## Running the Application
 
-1. Open the solution in Visual Studio.
-2. Build the solution.
-3. Run the API.
-4. Open Swagger.
+Option 1: Run Using Visual Studio
+Prerequisites
+Visual Studio 2022 or later
+.NET 8 SDK
+
+Steps
+
+Open FizzBuzzSample.sln
+Restore NuGet packages if prompted.
+Set FizzBuzzSimple as the Startup Project.
+Build the solution.
+Press F5 or click Run.
+Swagger UI will open automatically.
+Option 2: Run Using Command Prompt
+Prerequisites
+
+Install .NET 8 SDK.
+
+Verify installation:
+
+dotnet --version
+
+Navigate to the API project folder:
+
+cd FizzBuzzSimple
+
+Restore packages:
+
+dotnet restore
+
+Build the application:
+
+dotnet build
+
+Run the application:
+
+dotnet run
+
+The application will start and display the URL in the console.
 
 Example:
 
-[https://localhost:{port}/swagger](https://localhost:{port}/swagger)
+https://localhost:5001
+
+Open:
+
+https://localhost:5001/swagger
+
+to access Swagger UI.
+
+Option 3: Run Using Visual Studio Code
+Prerequisites
+Visual Studio Code
+.NET 8 SDK
+C# Extension
+Steps
+
+Open the solution folder in VS Code.
+
+Open Terminal and execute:
+
+cd FizzBuzzSimple
+
+dotnet restore
+
+dotnet build
+
+dotnet run
+
+Open the Swagger URL displayed in the terminal.
+
+Running Unit Tests
+
+Navigate to the solution folder:
+
+cd FizzBuzzSample
+
+Run:
+
+dotnet test
+
+Expected Result:
+
+Passed: 8
+Failed: 0
+Skipped: 0
 
 ## Sample Request
 

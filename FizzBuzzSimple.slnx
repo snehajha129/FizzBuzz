@@ -2,5 +2,6 @@
   <Folder Name="/Solution Items/">
     <File Path="README.md" />
   </Folder>
+  <Project Path="FizzBuzz.Tests/FizzBuzz.Tests.csproj" Id="5e977ca8-a5ea-441d-9b79-ddbf42fd8916" />
   <Project Path="FizzBuzzSimple/FizzBuzzSimple.csproj" />
 </Solution>
