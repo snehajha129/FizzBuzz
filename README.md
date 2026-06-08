@@ -72,14 +72,18 @@ The application will start and display the URL in the console.
 
 Example:
 
-https://localhost:5001
+https://localhost:5256  
 
 Open:
 
-https://localhost:5001/swagger
+https://localhost:5256/swagger
 
 to access Swagger UI.
 
+Note: The port may differ on another machine depending on the local environment and launch settings. If a different port is assigned, check the application output/terminal window after startup and navigate to:
+https://localhost:<port>/swagger
+
+using the port displayed when the application starts.
 Option 3: Run Using Visual Studio Code
 Prerequisites
 Visual Studio Code
