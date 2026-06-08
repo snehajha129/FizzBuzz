@@ -80,9 +80,6 @@ https://localhost:5256/swagger
 
 to access Swagger UI.
 
-Note: The port may differ on another machine depending on the local environment and launch settings. If a different port is assigned, check the application output/terminal window after startup and navigate to:
-https://localhost:<port>/swagger
-
 Option 3: Run Using Visual Studio Code
 Prerequisites
 Visual Studio Code
