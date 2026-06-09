@@ -77,7 +77,6 @@ https://localhost:5256
 Open:
 
 https://localhost:5256/swagger
-
 to access Swagger UI.
 
 Option 3: Run Using Visual Studio Code
